@@ -1,0 +1,24 @@
+{
+  "name": "n18",
+  "version": "2.4.5",
+  "description": "bu loyihani ni ozim qildim ",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "vohobjonoff"
+  },
+  "author": "Ihtiyor",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0"
+  }
+}
